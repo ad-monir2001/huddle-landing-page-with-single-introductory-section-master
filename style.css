@@ -18,6 +18,8 @@
 body{
     background: url(/images/bg-desktop.svg), var(--Violet);
     background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 h1{
@@ -42,4 +44,9 @@ p{
 }
 .container{
     display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    max-width: 1440px;
+    margin:  10% auto;
 }
